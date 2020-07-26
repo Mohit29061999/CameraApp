@@ -8,21 +8,16 @@
     tools:context=".MainActivity">
 
     <SurfaceView
-        android:id="@+id/surface_view"
+        android:id="@+id/surface_view1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true">
 
     </SurfaceView>
-    <ImageView
-        android:id="@+id/image_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true">
-    </ImageView>
+
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -33,7 +28,7 @@
         android:textSize="10sp" />
 
     <Button
-        android:id="@+id/switchCamera"
+        android:id="@+id/switchCamera1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -45,7 +40,7 @@
         android:textSize="10sp" />
 
     <Button
-        android:id="@+id/switchMode"
+        android:id="@+id/switchMode1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
